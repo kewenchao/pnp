@@ -368,7 +368,7 @@ def submit_session(**job_params):
         data = BXT_Daily_P_ACRN
         build_number = artOutputURL.split('/')[-2]
     else:
-        status = 3
+        status = "3"
         message = "Not in PnP automation test plan, exit!"
         return status, message
 
